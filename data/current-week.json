@@ -1,6 +1,6 @@
 {
-  "weekStart": "2025-11-23",
-  "weekEnd": "2025-11-27",
+  "weekStart": "Saturday, November 23, 2025",
+  "weekEnd": "Wednesday, November 27, 2025",
   "targets": {
     "protein": "110-130g/day",
     "carbs": "60-90g/day",
@@ -10,27 +10,54 @@
   "days": [
     {
       "date": "Saturday, November 23",
+      "dayNumber": "Day 3",
       "meals": [
         {
           "type": "Lunch",
           "name": "Shakshuka",
-          "ingredients": ["3 eggs + 3 egg whites", "1/2 cup marinara sauce", "1 oz feta cheese", "Side of steamed spinach"],
+          "ingredients": [
+            "3 eggs + 3 egg whites",
+            "1/2 cup (120ml) marinara sauce (Rao's or TJ's)",
+            "1 oz (28g) feta cheese",
+            "Side of steamed spinach"
+          ],
           "prepTime": "10 min",
-          "prepMethod": "Microwave"
+          "prepMethod": "Stove/Microwave Combo",
+          "prepInstructions": "Option A (Stove): Heat marinara in small pan, crack eggs on top, cover and cook 5-6 min until whites set. Top with feta. Option B (Microwave): Pour marinara in bowl, crack eggs on top, cover loosely with plate. Microwave 2 min, check, then 30-sec intervals until whites set. Top with feta. Steam spinach separately (2 min)."
         },
         {
           "type": "Dessert",
           "name": "Apple + Almond Butter",
-          "ingredients": ["1/2 apple (55g)", "1 tbsp almond butter"],
+          "ingredients": [
+            "1/2 apple (about 55g), sliced",
+            "1 tbsp (16g) almond butter"
+          ],
           "prepTime": "2 min",
-          "prepMethod": "Assembly"
+          "prepMethod": "Assembly",
+          "prepInstructions": "Slice apple, dip in or spread almond butter."
         },
         {
           "type": "Dinner",
           "name": "Ground Beef & Brussels Sprouts",
-          "ingredients": ["5 oz ground beef", "2 cups Brussels sprouts", "1 tsp EVOO"],
+          "ingredients": [
+            "5 oz (140g) pre-cooked ground beef",
+            "2 cups (about 200g) Brussels sprouts (fresh or frozen)",
+            "1 tsp EVOO",
+            "Salt, pepper, garlic powder"
+          ],
           "prepTime": "25 min",
-          "prepMethod": "Oven or Microwave"
+          "prepMethod": "Oven or Microwave",
+          "prepInstructions": "Oven Option (25 min): Preheat oven to 400°F (200°C). Toss halved Brussels with EVOO, salt, pepper, garlic powder. Roast on baking sheet 20-25 min until crispy. Reheat beef in microwave last 2 min. Microwave Option: Steam Brussels in microwave with extra water (5-6 min), optionally pan-sear briefly in skillet with EVOO to add flavor. Reheat beef, combine."
+        },
+        {
+          "type": "Evening",
+          "name": "Bone broth",
+          "ingredients": [
+            "240ml/8 oz bone broth, heated"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Heat bone broth in microwave."
         }
       ],
       "dailyTotal": {
@@ -39,6 +66,274 @@
         "carbs": "46g",
         "fat": "59g"
       }
+    },
+    {
+      "date": "Sunday, November 24",
+      "dayNumber": "Day 4",
+      "batchCookingDay": true,
+      "batchCookingNotes": "Make Ground Beef Chili (large batch): Brown 680-900g ground beef, add 1 can diced tomatoes, 1/2 can kidney beans, spices (2 tbsp chili powder, 1 tbsp cumin, 1 tsp garlic powder, 1 tsp paprika). Simmer 20-30 min. Makes 4-5 servings. Also bake Salmon & Asparagus for dinner.",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Ground Beef Chili (High Protein)",
+          "ingredients": [
+            "6 oz (170g) ground beef (in chili)",
+            "1 cup (240ml) diced tomatoes",
+            "1/4 cup (about 45g) kidney beans",
+            "Chili powder, cumin, garlic powder",
+            "Top with 2 tbsp (30g) Greek yogurt or Trimona yogurt"
+          ],
+          "prepTime": "30 min (batch cook)",
+          "prepMethod": "Stovetop",
+          "prepInstructions": "See batch cooking section. Make large batch today. Serve bowl with yogurt dollop on top."
+        },
+        {
+          "type": "Dessert",
+          "name": "Cottage Cheese Bowl",
+          "ingredients": [
+            "1/2 cup (113g) cottage cheese (2%)",
+            "1/4 cup (about 35g) mixed berries",
+            "Cinnamon"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Scoop cottage cheese, top with berries and cinnamon."
+        },
+        {
+          "type": "Dinner",
+          "name": "Salmon & Asparagus",
+          "ingredients": [
+            "5 oz (140g) salmon fillet",
+            "1.5 cups (about 200g) asparagus",
+            "1 tsp butter",
+            "Lemon, dill, salt, pepper"
+          ],
+          "prepTime": "20 min",
+          "prepMethod": "Oven or Microwave",
+          "prepInstructions": "Oven Option (20 min): Preheat oven to 400°F (200°C). Place salmon and asparagus on baking sheet. Dot salmon with butter, season with salt, pepper, dill. Drizzle asparagus with EVOO, salt, pepper. Bake 12-15 min (salmon should flake easily). Squeeze lemon over everything. Microwave Option: Place salmon in dish, season with butter, dill, lemon. Cover with vented lid, microwave 3-4 min (check at 3 min). Steam asparagus separately (3-4 min)."
+        },
+        {
+          "type": "Evening",
+          "name": "Herbal tea",
+          "ingredients": [
+            "Herbal tea"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Kettle",
+          "prepInstructions": "Brew herbal tea."
+        }
+      ],
+      "dailyTotal": {
+        "calories": 990,
+        "protein": "109g",
+        "carbs": "44g",
+        "fat": "45g"
+      }
+    },
+    {
+      "date": "Monday, November 25",
+      "dayNumber": "Day 5",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Leftover Beef Chili",
+          "ingredients": [
+            "Same as Sunday - from batch",
+            "Top with 2 tbsp (30g) Greek yogurt or Trimona yogurt"
+          ],
+          "prepTime": "3 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Microwave chili until hot. Top with yogurt."
+        },
+        {
+          "type": "Dessert",
+          "name": "Chia Pudding",
+          "ingredients": [
+            "2 tbsp (about 24g) chia seeds",
+            "1/2 cup (120ml) unsweetened almond milk",
+            "Cinnamon",
+            "(Made Sunday night)"
+          ],
+          "prepTime": "0 min (made ahead)",
+          "prepMethod": "Made Ahead",
+          "prepInstructions": "Eat cold from fridge. Top with cinnamon if you didn't add it before."
+        },
+        {
+          "type": "Dinner",
+          "name": "Egg & Veggie Plate",
+          "ingredients": [
+            "3 whole eggs",
+            "1.5 cups (about 200g) steamed asparagus",
+            "1/4 avocado (about 40g)"
+          ],
+          "prepTime": "8 min",
+          "prepMethod": "Microwave/Stove Combo",
+          "prepInstructions": "Steam asparagus in microwave with extra water (3-4 min). For eggs - Microwave: Scramble in bowl, cook 1 min, stir, 30-sec intervals OR Stove: Fry or scramble in pan with butter. Slice avocado, serve alongside."
+        },
+        {
+          "type": "Evening",
+          "name": "Bone broth",
+          "ingredients": [
+            "300ml/10 oz bone broth, heated"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Heat bone broth in microwave."
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1050,
+        "protein": "94g",
+        "carbs": "44g",
+        "fat": "60g"
+      }
+    },
+    {
+      "date": "Tuesday, November 26",
+      "dayNumber": "Day 6",
+      "reminder": "Pick up rotisserie chicken from Whole Foods today (on sale)!",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Tuna & Edamame Bowl",
+          "ingredients": [
+            "5 oz (140g) tuna (canned in water, drained)",
+            "2 cups (about 60g) mixed greens",
+            "1 cup (155g shelled weight) edamame (cooked)",
+            "1 cup (about 100g) cucumber slices",
+            "1 tbsp EVOO + lemon"
+          ],
+          "prepTime": "7 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Cook frozen edamame: Microwave in shell (5 min), then shell them OR buy pre-shelled and steam (3 min). Arrange greens in bowl, top with drained tuna, edamame, cucumber. Drizzle EVOO + lemon juice."
+        },
+        {
+          "type": "Dessert",
+          "name": "Berries + Cottage Cheese",
+          "ingredients": [
+            "1/2 cup (about 70g) berries",
+            "1/2 cup (113g) cottage cheese (2%)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Mix berries into cottage cheese or layer them."
+        },
+        {
+          "type": "Dinner",
+          "name": "Ground Beef & Zucchini Bowl",
+          "ingredients": [
+            "5 oz (140g) pre-cooked ground beef",
+            "1.5 cups (about 180g) zucchini (sliced, cooked)",
+            "1/2 avocado (about 80g)",
+            "Drizzle EVOO, lemon, salt"
+          ],
+          "prepTime": "6 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Slice zucchini into rounds or half-moons. Microwave with extra water, covered (4-5 min) - not too long or it gets mushy. Drain well (or keep water for drinking). Reheat beef (1-2 min). Combine in bowl with sliced avocado. Drizzle EVOO, squeeze lemon, salt/pepper. Optional: Add Tajin and drink the veggie broth."
+        },
+        {
+          "type": "Evening (optional)",
+          "name": "Herbal tea + almonds",
+          "ingredients": [
+            "Herbal tea",
+            "10 almonds (about 14g)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Simple",
+          "prepInstructions": "Brew tea, serve with almonds."
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1060,
+        "protein": "110g",
+        "carbs": "47g",
+        "fat": "57g"
+      }
+    },
+    {
+      "date": "Wednesday, November 27",
+      "dayNumber": "Day 7",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Rotisserie Chicken & Veggie Bowl",
+          "ingredients": [
+            "5 oz (140g) rotisserie chicken (white meat, pulled/shredded)",
+            "1.5 cups (about 150g) frozen broccoli (steamed)",
+            "1/4 avocado (about 40g)",
+            "Drizzle EVOO, lemon"
+          ],
+          "prepTime": "5 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Pull/shred white meat from rotisserie chicken. Steam frozen broccoli in microwave with extra water (4-5 min). Combine in bowl with sliced avocado. Drizzle EVOO, squeeze lemon, salt/pepper. Optional: Add Tajin and drink the veggie broth."
+        },
+        {
+          "type": "Dessert",
+          "name": "Greek Yogurt Bowl",
+          "ingredients": [
+            "3/4 cup (about 170g) plain Greek yogurt (2%) or Trimona yogurt",
+            "1/4 cup (about 40g) strawberries (fresh or frozen)",
+            "Cinnamon"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Top yogurt with berries and sprinkle cinnamon."
+        },
+        {
+          "type": "Dinner",
+          "name": "Chicken \"Soup\" Bowl",
+          "ingredients": [
+            "5 oz (140g) rotisserie chicken (shredded)",
+            "1.5 cups (360ml) bone broth (heated)",
+            "3/4 cup (about 90g) cooked carrots",
+            "Fresh ginger (grated), turmeric"
+          ],
+          "prepTime": "10 min",
+          "prepMethod": "Stovetop/Microwave",
+          "prepInstructions": "Option A (Stove): Heat bone broth in pot with grated ginger + pinch turmeric. Add carrots (pre-cooked or cook in broth). Add shredded chicken, heat through. Option B (Microwave): Microwave carrots (4 min), then combine in large bowl with shredded chicken + bone broth + ginger + turmeric. Microwave 2-3 min until hot."
+        },
+        {
+          "type": "Evening (optional)",
+          "name": "Herbal tea + almonds",
+          "ingredients": [
+            "Herbal tea",
+            "8 almonds (about 11g)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Simple",
+          "prepInstructions": "Brew tea, serve with almonds."
+        }
+      ],
+      "dailyTotal": {
+        "calories": 945,
+        "protein": "118g",
+        "carbs": "37g",
+        "fat": "39g"
+      }
     }
+  ],
+  "weeklyAverage": {
+    "calories": "~1,019 cal/day",
+    "protein": "106g P",
+    "carbs": "44g C",
+    "fat": "52g F"
+  },
+  "weekNotes": {
+    "focus": [
+      "GI Recovery: Cooked vegetables, bone broth, ACV if tolerated",
+      "High Protein: 100-120g/day for satiety and muscle preservation",
+      "Stress Management: Keep meals simple - don't add cooking stress",
+      "Hydration: Continue water and Optima electrolytes"
+    ],
+    "cookingSchedule": "2 main cooking days: Saturday (optional oven for Brussels), Sunday (chili + salmon). All other days: Microwave + simple assembly"
+  },
+  "emergencySatietyOptions": [
+    "1 cup bone broth (50 cal, 10g P)",
+    "1/2 cup cottage cheese (80 cal, 14g P)",
+    "1/2 cup edamame (95 cal, 9g P)",
+    "Cucumber + 1 tbsp hummus (50 cal, 2g P)",
+    "10-12 almonds (70 cal, 3g P)",
+    "IQ Protein Bar (190 cal, 15g P)",
+    "Orgain Pumpkin-Apple Shake (200 cal, 22g P)"
   ]
 }
