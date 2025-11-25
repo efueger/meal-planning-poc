@@ -48,4 +48,4 @@ meal-planning-poc/
 ✅ Basic display of meal plan  
 ✅ Mobile-friendly design  
 ✅ Easy to update via JSON file  
-⬜ GitHub Pages deployment (next step)
+✅ GitHub Pages deployment: https://efueger.github.io/meal-planning-poc/
