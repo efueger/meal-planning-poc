@@ -3,20 +3,369 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Meal Plan</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>🥗 My Meal Plan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f7fa;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+
+        h1 {
+            color: #2c5f2d;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .week-info {
+            background: #e8f5e9;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-left: 4px solid #2c5f2d;
+        }
+
+        .targets {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .target-item {
+            background: white;
+            padding: 8px;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        .target-item strong {
+            color: #2c5f2d;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        /* Collapsible Day Styling */
+        .day-card {
+            background: white;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .day-header {
+            background: linear-gradient(135deg, #4a7c4e 0%, #2c5f2d 100%);
+            color: white;
+            padding: 15px 20px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: background 0.3s ease;
+        }
+
+        .day-header:hover {
+            background: linear-gradient(135deg, #5a8f5e 0%, #3a6f3d 100%);
+        }
+
+        .day-header h2 {
+            font-size: 1.3em;
+            font-weight: 600;
+        }
+
+        .day-header .toggle-icon {
+            font-size: 1.5em;
+            transition: transform 0.3s ease;
+        }
+
+        .day-header.collapsed .toggle-icon {
+            transform: rotate(180deg);
+        }
+
+        .day-content {
+            padding: 20px;
+            display: none;
+        }
+
+        .day-content.expanded {
+            display: block;
+        }
+
+        .reminder {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .meal {
+            background: #fafafa;
+            border-left: 4px solid #4a7c4e;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .meal-header {
+            font-size: 1.1em;
+            font-weight: 600;
+            color: #2c5f2d;
+            margin-bottom: 10px;
+        }
+
+        .meal-type {
+            display: inline-block;
+            background: #e8f5e9;
+            color: #2c5f2d;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            margin-right: 10px;
+        }
+
+        .ingredients {
+            margin: 10px 0;
+        }
+
+        .ingredients h4 {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .ingredients ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .ingredients li {
+            padding: 4px 0 4px 20px;
+            position: relative;
+        }
+
+        .ingredients li:before {
+            content: "•";
+            color: #4a7c4e;
+            font-weight: bold;
+            position: absolute;
+            left: 5px;
+        }
+
+        .prep-instructions {
+            background: #fff9e6;
+            border-left: 3px solid #f0c040;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+
+        .prep-instructions h4 {
+            font-size: 0.95em;
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .prep-instructions p {
+            font-size: 0.9em;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .prep-meta {
+            display: flex;
+            gap: 15px;
+            margin: 8px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .prep-meta span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .notes {
+            background: #e3f2fd;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            color: #1565c0;
+            margin-top: 8px;
+        }
+
+        .daily-total {
+            background: #e8f5e9;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 15px;
+            font-weight: 600;
+            color: #2c5f2d;
+        }
+
+        .batch-cooking {
+            background: #e3f2fd;
+            border-left: 4px solid #1976d2;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+
+        .batch-cooking h4 {
+            color: #1565c0;
+            margin-bottom: 8px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            .day-header h2 {
+                font-size: 1.1em;
+            }
+
+            .targets {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>🥗 My Meal Plan</h1>
-        <div id="week-info"></div>
-        <div id="targets"></div>
-    </header>
+    <h1>🥗 My Meal Plan</h1>
+    
+    <div id="meal-plan-container">
+        <p>Loading meal plan...</p>
+    </div>
 
-    <main id="meal-plan">
-        <!-- Meals will be inserted here by JavaScript -->
-    </main>
+    <script>
+        // Fetch and render the meal plan
+        fetch('current-week.json')
+            .then(response => response.json())
+            .then(data => {
+                renderMealPlan(data);
+            })
+            .catch(error => {
+                document.getElementById('meal-plan-container').innerHTML = 
+                    '<p style="color: red;">Error loading meal plan. Please check that current-week.json exists.</p>';
+                console.error('Error:', error);
+            });
 
-    <script src="script.js"></script>
+        function renderMealPlan(data) {
+            const container = document.getElementById('meal-plan-container');
+            
+            let html = `
+                <div class="week-info">
+                    <h3>${data.weekStart} - ${data.weekEnd}</h3>
+                    <div class="targets">
+                        <div class="target-item">
+                            <strong>Protein</strong>
+                            ${data.targets.protein}
+                        </div>
+                        <div class="target-item">
+                            <strong>Carbs</strong>
+                            ${data.targets.carbs}
+                        </div>
+                        <div class="target-item">
+                            <strong>Fat</strong>
+                            ${data.targets.fat}
+                        </div>
+                        <div class="target-item">
+                            <strong>Calories</strong>
+                            ${data.targets.calories}
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            // Render each day
+            data.days.forEach((day, index) => {
+                html += `
+                    <div class="day-card">
+                        <div class="day-header ${index === 0 ? '' : 'collapsed'}" onclick="toggleDay(this)">
+                            <h2>${day.date} (${day.dayNumber})</h2>
+                            <span class="toggle-icon">▼</span>
+                        </div>
+                        <div class="day-content ${index === 0 ? 'expanded' : ''}">
+                            ${day.reminder ? `<div class="reminder">🔔 ${day.reminder}</div>` : ''}
+                            ${day.batchCookingNotes ? `
+                                <div class="batch-cooking">
+                                    <h4>🔪 Batch Cooking Today</h4>
+                                    <p>${day.batchCookingNotes}</p>
+                                </div>
+                            ` : ''}
+                            ${renderMeals(day.meals)}
+                            <div class="daily-total">
+                                <strong>Daily Total:</strong> 
+                                ${day.dailyTotal.calories} cal | 
+                                ${day.dailyTotal.protein} P | 
+                                ${day.dailyTotal.carbs} C | 
+                                ${day.dailyTotal.fat} F
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function renderMeals(meals) {
+            return meals.map(meal => `
+                <div class="meal">
+                    <div class="meal-header">
+                        <span class="meal-type">${meal.type}</span>
+                        ${meal.name}
+                    </div>
+                    
+                    <div class="ingredients">
+                        <h4>Ingredients:</h4>
+                        <ul>
+                            ${meal.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+                        </ul>
+                    </div>
+
+                    ${meal.prepTime || meal.prepMethod ? `
+                        <div class="prep-meta">
+                            ${meal.prepTime ? `<span>⏱️ ${meal.prepTime}</span>` : ''}
+                            ${meal.prepMethod ? `<span>🔧 ${meal.prepMethod}</span>` : ''}
+                        </div>
+                    ` : ''}
+
+                    ${meal.prepInstructions ? `
+                        <div class="prep-instructions">
+                            <h4>📝 Instructions:</h4>
+                            <p>${meal.prepInstructions}</p>
+                        </div>
+                    ` : ''}
+
+                    ${meal.notes ? `
+                        <div class="notes">
+                            💡 ${meal.notes}
+                        </div>
+                    ` : ''}
+                </div>
+            `).join('');
+        }
+
+        function toggleDay(header) {
+            header.classList.toggle('collapsed');
+            const content = header.nextElementSibling;
+            content.classList.toggle('expanded');
+        }
+    </script>
 </body>
 </html>
