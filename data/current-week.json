@@ -1,44 +1,563 @@
 {
-  "weekStart": "2025-11-23",
-  "weekEnd": "2025-11-27",
+  "weekStart": "Monday, December 1, 2025",
+  "weekEnd": "Sunday, December 7, 2025",
   "targets": {
     "protein": "110-130g/day",
     "carbs": "60-90g/day",
     "fat": "55-70g/day",
     "calories": "1,400-1,600/day"
   },
+  "weekNotes": {
+    "focus": [
+      "Continue GI recovery with cooked vegetables and bone broth",
+      "High protein (110-130g/day) for satiety and muscle preservation",
+      "Anti-inflammatory whole foods focus",
+      "Use up entire jar of marinara sauce (709g) this week",
+      "Simple meals with minimal cooking stress"
+    ],
+    "cookingSchedule": "Main cooking day: Sunday (batch cook ground beef). Mid-week prep: Wednesday. All other days: Microwave + simple assembly",
+    "shoppingSchedule": "Trip #1: Sunday Nov 30 or Dec 1 (covers Mon-Wed). Trip #2: Wednesday Dec 3 or Thursday Dec 4 (covers Thu-Sun)"
+  },
   "days": [
     {
-      "date": "Saturday, November 23",
+      "date": "Monday, December 1",
+      "dayNumber": "Day 1",
       "meals": [
         {
           "type": "Lunch",
           "name": "Shakshuka",
-          "ingredients": ["3 eggs + 3 egg whites", "1/2 cup marinara sauce", "1 oz feta cheese", "Side of steamed spinach"],
+          "ingredients": [
+            "3 eggs + 3 egg whites",
+            "120ml (about 120g) marinara sauce (Trader Joe's Organic)",
+            "28g feta cheese",
+            "Side of steamed spinach (about 100g)"
+          ],
           "prepTime": "10 min",
-          "prepMethod": "Microwave"
+          "prepMethod": "Stove or Microwave",
+          "prepInstructions": "STOVE METHOD: Heat marinara in small skillet over medium heat. Make 6 small wells in the sauce and crack eggs into wells. Cover and cook 5-6 minutes until egg whites are set but yolks still runny. Top with crumbled feta. Serve with steamed spinach on the side. MICROWAVE METHOD: Pour marinara into large microwave-safe bowl. Crack eggs on top of sauce. Cover loosely with a plate. Microwave on high for 2 minutes, check eggs. Continue in 30-second intervals until whites are set. Top with feta. Steam spinach separately in microwave (2 min with 2 tbsp water).",
+          "notes": "This uses 120g of the 709g marinara jar. Remaining: 589g"
+        },
+        {
+          "type": "Dessert",
+          "name": "Apple + Trimona Yogurt",
+          "ingredients": [
+            "55g apple (1/2 small apple), sliced",
+            "2 tbsp (30g) Trimona Bulgarian yogurt"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Slice apple into wedges. Serve with Trimona yogurt for dipping or drizzle yogurt over apple slices."
+        },
+        {
+          "type": "Dinner",
+          "name": "Ground Beef & Green Bean Stir-Fry",
+          "ingredients": [
+            "140g pre-cooked ground beef (85/15)",
+            "200g frozen green beans",
+            "1/2 tbsp coconut oil",
+            "1 tsp coconut aminos",
+            "Garlic powder, ginger powder, salt, pepper"
+          ],
+          "prepTime": "8 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Place frozen green beans in microwave-safe bowl with 3-4 tbsp water. Cover and microwave 4-5 minutes until tender. Keep the water in the bowl if you like to drink the veggie broth. Reheat ground beef in separate bowl (1-2 min). Combine beef and green beans. Add coconut oil (will melt), coconut aminos, garlic powder, ginger powder, salt and pepper. Stir well. Optional: Add Tajin on top and drink the veggie broth for extra satiety.",
+          "notes": "Extra water in green beans creates savory broth for drinking"
+        },
+        {
+          "type": "Evening",
+          "name": "Orgain Pumpkin-Apple Shake",
+          "ingredients": [
+            "150-200ml water",
+            "120g canned pumpkin purée",
+            "110g apple (diced)",
+            "5g chia seeds (1 tsp)",
+            "1/4 tsp cinnamon",
+            "46g Orgain Vanilla or Chocolate Protein Powder (1 scoop)",
+            "2-3 ice cubes"
+          ],
+          "prepTime": "3 min",
+          "prepMethod": "Blender",
+          "prepInstructions": "Add all ingredients to blender in this order: water, pumpkin, diced apple, chia seeds, cinnamon, protein powder, ice. Blend on high until smooth (30-45 seconds). Drink immediately or refrigerate for up to 2 hours.",
+          "notes": "Use water, not almond milk, per your preference"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1140,
+        "protein": "115g",
+        "carbs": "65g",
+        "fat": "58g"
+      }
+    },
+    {
+      "date": "Tuesday, December 2",
+      "dayNumber": "Day 2",
+      "reminder": "Pick up rotisserie chicken from Whole Foods today (on sale)!",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Tuna & Cucumber Salad Bowl",
+          "ingredients": [
+            "140g canned tuna in water (drained)",
+            "60g mixed salad greens",
+            "100g cucumber slices",
+            "70g cherry tomatoes (halved)",
+            "5 Kalamata olives (pitted)",
+            "1 tbsp EVOO",
+            "Lemon juice, salt, pepper"
+          ],
+          "prepTime": "5 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Arrange salad greens in a large bowl. Drain tuna well and flake on top of greens. Add cucumber slices, halved cherry tomatoes, and olives. Drizzle with EVOO and fresh lemon juice. Season with salt and pepper. Toss gently and serve.",
+          "notes": "Simple, fresh, Mediterranean-inspired"
+        },
+        {
+          "type": "Dessert",
+          "name": "Cottage Cheese & Berries",
+          "ingredients": [
+            "113g cottage cheese (2%)",
+            "70g mixed berries (fresh or frozen)",
+            "Cinnamon"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Scoop cottage cheese into bowl. Top with berries (if using frozen, microwave 20-30 seconds to soften). Sprinkle with cinnamon.",
+          "notes": "You loved this combination in Week 1"
+        },
+        {
+          "type": "Dinner",
+          "name": "Baked Cod with Lemon-Herb Butter",
+          "ingredients": [
+            "140g frozen cod fillet (1 portion)",
+            "1 tsp butter",
+            "1/2 lemon (juice and zest)",
+            "Fresh or dried dill",
+            "Garlic powder, salt, pepper",
+            "200g frozen broccoli (steamed side)"
+          ],
+          "prepTime": "15 min",
+          "prepMethod": "Oven or Microwave",
+          "prepInstructions": "OVEN METHOD (15 min): Preheat oven to 400°F (200°C). Place frozen cod on baking sheet. Dot with butter, squeeze lemon juice over, sprinkle with lemon zest, dill, garlic powder, salt, pepper. Bake 12-15 minutes until fish flakes easily. MICROWAVE METHOD (8 min): Place frozen cod in microwave-safe dish. Dot with butter, add lemon juice, zest, seasonings. Cover with vented lid. Microwave 5-6 minutes, checking at 5 min (fish should be opaque and flaky). Steam broccoli separately in microwave with extra water (4-5 min). Serve fish over or alongside broccoli.",
+          "notes": "Lemon and dill mask any fishy taste. Pre-portioned frozen fish makes this super easy."
+        },
+        {
+          "type": "Evening (optional)",
+          "name": "Herbal tea + almonds",
+          "ingredients": [
+            "Herbal tea (ginger or chamomile)",
+            "14g almonds (about 10-12 almonds)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Simple",
+          "prepInstructions": "Brew herbal tea. Serve with almonds on the side.",
+          "notes": "Only if hungry"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1020,
+        "protein": "108g",
+        "carbs": "52g",
+        "fat": "48g"
+      }
+    },
+    {
+      "date": "Wednesday, December 3",
+      "dayNumber": "Day 3",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Rotisserie Chicken & Avocado Bowl",
+          "ingredients": [
+            "140g rotisserie chicken (white meat, shredded)",
+            "150g frozen broccoli (steamed)",
+            "40g avocado (1/4 medium)",
+            "1/2 tbsp EVOO",
+            "Lemon juice, salt, pepper"
+          ],
+          "prepTime": "6 min",
+          "prepMethod": "Microwave + Assembly",
+          "prepInstructions": "Pull or shred white meat from rotisserie chicken. Steam frozen broccoli in microwave with extra water (4-5 min). Drain if desired, or keep water for drinking. Combine chicken and broccoli in bowl. Add sliced avocado. Drizzle with EVOO and lemon juice. Season with salt and pepper. Optional: Add Tajin and drink the veggie broth.",
+          "notes": "Quick and satisfying, uses rotisserie chicken from Tuesday"
+        },
+        {
+          "type": "Dessert",
+          "name": "Warm Pumpkin Apple Bowl",
+          "ingredients": [
+            "150g pumpkin purée",
+            "100g apple (diced)",
+            "Cinnamon",
+            "5g chia seeds (1 tsp) - optional for extra satiety"
+          ],
+          "prepTime": "3 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Place pumpkin purée in microwave-safe bowl. Microwave 30-40 seconds until warm. Add diced apple on top. Microwave another 20-30 seconds to warm the apple slightly. Sprinkle with cinnamon. Add chia seeds if you want extra fullness. Stir and enjoy warm.",
+          "notes": "Comforting, warm dessert with anti-inflammatory ingredients"
+        },
+        {
+          "type": "Dinner",
+          "name": "Greek Egg Scramble",
+          "ingredients": [
+            "3 whole eggs",
+            "60g cherry tomatoes (halved)",
+            "28g feta cheese (crumbled)",
+            "5 Kalamata olives (chopped)",
+            "Fresh or dried oregano",
+            "1/2 tbsp EVOO or butter",
+            "Salt, pepper"
+          ],
+          "prepTime": "8 min",
+          "prepMethod": "Stove or Microwave",
+          "prepInstructions": "STOVE METHOD: Heat EVOO or butter in pan over medium heat. Add halved cherry tomatoes and cook 1-2 minutes until softened. Whisk eggs with salt, pepper, oregano. Pour into pan. Stir gently to scramble. When almost set, add crumbled feta and chopped olives. Fold in and remove from heat. MICROWAVE METHOD: Place halved tomatoes in microwave-safe bowl. Microwave 1 minute. Whisk eggs with seasonings and pour over tomatoes. Microwave 1 minute, stir. Continue in 30-second intervals until just set. Stir in feta and olives.",
+          "notes": "Similar flavor profile to shakshuka but scrambled. You love eggs + feta!"
+        },
+        {
+          "type": "Evening",
+          "name": "Bone broth",
+          "ingredients": [
+            "240ml bone broth (8 oz), heated"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Microwave or Stovetop",
+          "prepInstructions": "Heat bone broth in microwave (2 min) or on stovetop until hot. Sip slowly.",
+          "notes": "GI healing and satiety"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1080,
+        "protein": "95g",
+        "carbs": "58g",
+        "fat": "60g"
+      }
+    },
+    {
+      "date": "Thursday, December 4",
+      "dayNumber": "Day 4",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Eggs Poached in Marinara with Spinach",
+          "ingredients": [
+            "3 eggs + 2 egg whites",
+            "150g marinara sauce (Trader Joe's Organic)",
+            "100g fresh or frozen spinach",
+            "28g feta cheese",
+            "Fresh or dried basil, oregano",
+            "Salt, pepper"
+          ],
+          "prepTime": "12 min",
+          "prepMethod": "Stove or Microwave",
+          "prepInstructions": "STOVE METHOD: Heat marinara in skillet. Add spinach and stir until wilted (1-2 min). Season with basil, oregano, salt, pepper. Make 5 small wells in the sauce. Crack eggs and egg whites into wells. Cover and cook 5-7 minutes until whites are set. Top with crumbled feta. MICROWAVE METHOD: Mix marinara and spinach in large microwave-safe bowl. Microwave 2 min to wilt spinach and heat sauce. Stir in seasonings. Crack eggs on top. Cover loosely with plate. Microwave 2 min, check. Continue in 30-second intervals until whites set. Top with feta.",
+          "notes": "Italian-style eggs in sauce. This uses 150g marinara. Remaining: 439g"
         },
         {
           "type": "Dessert",
           "name": "Apple + Almond Butter",
-          "ingredients": ["1/2 apple (55g)", "1 tbsp almond butter"],
+          "ingredients": [
+            "55g apple (1/2 small apple), sliced",
+            "16g almond butter (1 tbsp)"
+          ],
           "prepTime": "2 min",
-          "prepMethod": "Assembly"
+          "prepMethod": "Assembly",
+          "prepInstructions": "Slice apple into wedges. Dip in almond butter or spread almond butter on slices.",
+          "notes": "You loved this in Week 1"
+        },
+        {
+          "type": "Dinner",
+          "name": "Ground Beef & Zucchini Bowl",
+          "ingredients": [
+            "140g pre-cooked ground beef",
+            "180g zucchini (sliced)",
+            "80g avocado (1/2 medium)",
+            "1/2 tbsp EVOO",
+            "Lemon juice, salt, pepper",
+            "Garlic powder"
+          ],
+          "prepTime": "7 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Slice zucchini into rounds or half-moons. Place in microwave-safe bowl with 3-4 tbsp water. Cover and microwave 4-5 minutes (don't overcook or it gets mushy). Keep the water if you want to drink it. Reheat ground beef separately (1-2 min). Combine beef and zucchini in bowl. Add sliced avocado. Drizzle with EVOO and lemon juice. Season with garlic powder, salt, pepper. Optional: Add Tajin and drink the veggie broth.",
+          "notes": "Simple, satisfying, good fats from avocado"
+        },
+        {
+          "type": "Evening (optional)",
+          "name": "IQ Protein Bar",
+          "ingredients": [
+            "1 IQ Protein Bar (any flavor: Peanut Butter Chip, Apple Butter Chip, or Chocolate Sea Salt)"
+          ],
+          "prepTime": "0 min",
+          "prepMethod": "Ready to eat",
+          "prepInstructions": "Unwrap and eat. No prep needed.",
+          "notes": "Only if genuinely hungry. ~190 cal, 15g protein"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1070,
+        "protein": "100g",
+        "carbs": "50g",
+        "fat": "62g"
+      },
+      "dailyTotalWithBar": {
+        "calories": 1260,
+        "protein": "115g",
+        "carbs": "66g",
+        "fat": "69g"
+      }
+    },
+    {
+      "date": "Friday, December 5",
+      "dayNumber": "Day 5",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Tuna & Edamame Power Bowl",
+          "ingredients": [
+            "140g canned tuna in water (drained)",
+            "155g edamame (shelled weight, cooked)",
+            "60g mixed greens",
+            "100g cucumber slices",
+            "1 tbsp EVOO",
+            "Lemon juice, salt, pepper"
+          ],
+          "prepTime": "8 min",
+          "prepMethod": "Microwave + Assembly",
+          "prepInstructions": "If using frozen edamame in shell: Microwave 5 minutes, then shell. If using frozen pre-shelled: Microwave 3 minutes with 2 tbsp water. Drain. Arrange mixed greens in bowl. Top with drained tuna, edamame, cucumber slices. Drizzle with EVOO and lemon juice. Season with salt and pepper. Toss and serve.",
+          "notes": "High protein, filling, fresh"
+        },
+        {
+          "type": "Dessert",
+          "name": "Trimona Yogurt & Berries",
+          "ingredients": [
+            "170g Trimona Bulgarian yogurt (about 3/4 cup)",
+            "70g strawberries (fresh or frozen)",
+            "Cinnamon"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Scoop Trimona yogurt into bowl. Top with strawberries (if frozen, microwave 20 seconds to soften). Sprinkle with cinnamon.",
+          "notes": "A2A2 dairy is anti-inflammatory friendly"
+        },
+        {
+          "type": "Dinner",
+          "name": "Rotisserie Chicken & Asparagus",
+          "ingredients": [
+            "140g rotisserie chicken (white meat, shredded)",
+            "200g asparagus (fresh or frozen)",
+            "40g avocado (1/4 medium)",
+            "1/2 tbsp EVOO",
+            "Lemon juice, salt, pepper"
+          ],
+          "prepTime": "6 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Steam asparagus in microwave with extra water (3-4 minutes for fresh, 4-5 for frozen). Keep water if you want to drink it. Shred rotisserie chicken. Combine chicken and asparagus in bowl. Add sliced avocado. Drizzle with EVOO and lemon juice. Season with salt and pepper. Optional: Add Tajin and drink the veggie broth.",
+          "notes": "Quick, simple, uses up more rotisserie chicken"
+        },
+        {
+          "type": "Evening",
+          "name": "Bone broth",
+          "ingredients": [
+            "300ml bone broth (10 oz), heated"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Microwave or Stovetop",
+          "prepInstructions": "Heat bone broth in microwave (2-3 min) or on stovetop. Optional: Add pinch of turmeric or fresh grated ginger for extra anti-inflammatory benefits. Sip slowly.",
+          "notes": "GI support and evening satiety"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1100,
+        "protein": "112g",
+        "carbs": "54g",
+        "fat": "52g"
+      }
+    },
+    {
+      "date": "Saturday, December 6",
+      "dayNumber": "Day 6",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Rotisserie Chicken Marinara Bowl",
+          "ingredients": [
+            "140g rotisserie chicken (white meat, shredded)",
+            "200g marinara sauce (Trader Joe's Organic)",
+            "150g frozen broccoli (steamed)",
+            "28g feta cheese or mozzarella (optional)",
+            "Fresh or dried basil",
+            "Salt, pepper"
+          ],
+          "prepTime": "8 min",
+          "prepMethod": "Microwave or Stovetop",
+          "prepInstructions": "MICROWAVE METHOD: Steam broccoli in microwave with extra water (4-5 min). In separate bowl, combine shredded chicken and marinara sauce. Add basil, salt, pepper. Microwave 2-3 minutes until hot. Serve chicken marinara over or alongside broccoli. Top with crumbled feta or mozzarella if desired. STOVETOP METHOD: Heat marinara in small pot. Add shredded chicken and heat through (3-4 min). Season with basil. Steam broccoli separately. Serve together.",
+          "notes": "Like deconstructed chicken parmesan. This uses 200g marinara. Remaining: 239g"
+        },
+        {
+          "type": "Dessert",
+          "name": "Cottage Cheese & Berries",
+          "ingredients": [
+            "113g cottage cheese (2%)",
+            "70g mixed berries",
+            "Cinnamon"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly",
+          "prepInstructions": "Scoop cottage cheese. Top with berries and cinnamon.",
+          "notes": "Reliable favorite"
         },
         {
           "type": "Dinner",
           "name": "Ground Beef & Brussels Sprouts",
-          "ingredients": ["5 oz ground beef", "2 cups Brussels sprouts", "1 tsp EVOO"],
-          "prepTime": "25 min",
-          "prepMethod": "Oven or Microwave"
+          "ingredients": [
+            "140g pre-cooked ground beef",
+            "200g Brussels sprouts (fresh or frozen)",
+            "1 tsp EVOO",
+            "Garlic powder, salt, pepper"
+          ],
+          "prepTime": "8 min (microwave) or 25 min (oven)",
+          "prepMethod": "Microwave or Oven",
+          "prepInstructions": "MICROWAVE METHOD: Steam Brussels sprouts with extra water (5-6 min). Drain or keep water. Reheat ground beef (1-2 min). Combine beef and Brussels in bowl. Drizzle with EVOO. Season with garlic powder, salt, pepper. Optional: Add Tajin and drink veggie broth. OVEN METHOD (if you want crispy): Preheat oven to 400°F. Toss halved Brussels with EVOO, garlic powder, salt, pepper. Roast 20-25 min until crispy. Reheat beef in microwave last 2 min. Combine and serve.",
+          "notes": "You had this in Week 1 and it worked well"
+        },
+        {
+          "type": "Evening (optional)",
+          "name": "Herbal tea + almonds",
+          "ingredients": [
+            "Herbal tea",
+            "14g almonds (10-12 almonds)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Simple",
+          "prepInstructions": "Brew tea. Serve with almonds.",
+          "notes": "Only if hungry"
         }
       ],
       "dailyTotal": {
-        "calories": 1050,
-        "protein": "97g",
-        "carbs": "46g",
-        "fat": "59g"
+        "calories": 1110,
+        "protein": "105g",
+        "carbs": "58g",
+        "fat": "56g"
       }
+    },
+    {
+      "date": "Sunday, December 7",
+      "dayNumber": "Day 7",
+      "batchCookingDay": true,
+      "batchCookingNotes": "Batch cook ground beef for next week: Brown 900g-1.4kg (2-3 lbs) ground beef in large pan. Season with salt and pepper. Cool and store in fridge for next week's meals. Also make chia pudding tonight for Monday.",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Simple Eggs in Marinara",
+          "ingredients": [
+            "3 eggs + 2 egg whites",
+            "120g marinara sauce (finish the jar)",
+            "28g feta cheese",
+            "Fresh or dried basil",
+            "Salt, pepper"
+          ],
+          "prepTime": "10 min",
+          "prepMethod": "Stove or Microwave",
+          "prepInstructions": "STOVE METHOD: Heat marinara in small skillet. Season with basil, salt, pepper. Make 5 wells in sauce. Crack eggs into wells. Cover and cook 5-6 min until whites set. Top with feta. MICROWAVE METHOD: Pour marinara in bowl. Add seasonings. Crack eggs on top. Cover loosely with plate. Microwave 2 min, check. Continue in 30-second intervals until whites set. Top with feta.",
+          "notes": "Uses remaining 120g marinara - jar is now finished!"
+        },
+        {
+          "type": "Dessert",
+          "name": "Warm Pumpkin Apple Bowl",
+          "ingredients": [
+            "150g pumpkin purée",
+            "100g apple (diced)",
+            "Cinnamon",
+            "5g chia seeds (optional)"
+          ],
+          "prepTime": "3 min",
+          "prepMethod": "Microwave",
+          "prepInstructions": "Microwave pumpkin 30-40 sec. Add diced apple, microwave 20-30 sec more. Top with cinnamon and chia if desired.",
+          "notes": "Warm and comforting"
+        },
+        {
+          "type": "Dinner",
+          "name": "Baked Cod with Herbs & Green Beans",
+          "ingredients": [
+            "140g frozen cod fillet",
+            "1 tsp butter",
+            "Fresh or dried dill, parsley",
+            "Lemon juice, garlic powder, salt, pepper",
+            "200g frozen green beans"
+          ],
+          "prepTime": "15 min",
+          "prepMethod": "Oven or Microwave",
+          "prepInstructions": "OVEN METHOD: Preheat to 400°F. Place cod on baking sheet. Dot with butter, squeeze lemon juice, sprinkle with dill, parsley, garlic powder, salt, pepper. Bake 12-15 min until fish flakes. MICROWAVE METHOD: Place cod in dish with butter and seasonings. Cover with vented lid. Microwave 5-6 min until opaque and flaky. Steam green beans separately with extra water (4-5 min). Serve fish with green beans. Optional: Drink the veggie broth.",
+          "notes": "Simple fish dinner, prep for next week"
+        },
+        {
+          "type": "Evening",
+          "name": "Herbal tea",
+          "ingredients": [
+            "Herbal tea (ginger or chamomile)"
+          ],
+          "prepTime": "2 min",
+          "prepMethod": "Kettle",
+          "prepInstructions": "Brew herbal tea and enjoy.",
+          "notes": "Relaxing end to the week"
+        },
+        {
+          "type": "Prep for Monday",
+          "name": "Chia Pudding (make tonight)",
+          "ingredients": [
+            "24g chia seeds (2 tbsp)",
+            "120ml water",
+            "Cinnamon"
+          ],
+          "prepTime": "5 min prep, overnight soak",
+          "prepMethod": "Make Ahead",
+          "prepInstructions": "Mix chia seeds, water, and cinnamon in jar or container. Stir well. Refrigerate overnight. Will be ready for Monday dessert.",
+          "notes": "Prep ahead for easy Monday"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1040,
+        "protein": "102g",
+        "carbs": "62g",
+        "fat": "48g"
+      }
+    }
+  ],
+  "weeklyAverage": {
+    "calories": "~1,094 cal/day",
+    "protein": "106g",
+    "carbs": "57g",
+    "fat": "55g"
+  },
+  "emergencySatietyOptions": [
+    "1 cup bone broth (50 cal, 10g P)",
+    "1/2 cup cottage cheese (80 cal, 14g P)",
+    "1/2 cup edamame (95 cal, 9g P)",
+    "Cucumber + 1 tbsp hummus (50 cal, 2g P)",
+    "10-12 almonds (70 cal, 3g P)",
+    "IQ Protein Bar (190 cal, 15g P)",
+    "Orgain Pumpkin-Apple Shake (200 cal, 22g P)"
+  ],
+  "newRecipes": [
+    {
+      "name": "Warm Pumpkin Apple Bowl",
+      "ingredients": [
+        "120-180g pumpkin purée",
+        "80-120g apple (diced)",
+        "Cinnamon",
+        "Optional: 5g chia seeds for satiety"
+      ],
+      "instructions": "Warm pumpkin 30-40 sec, add diced apple, microwave 20-30 sec, top with cinnamon (add chia if desired)",
+      "macros": "~120 cal | 2g P | 28g C | 2g F (with chia)"
+    },
+    {
+      "name": "Orgain Pumpkin-Apple Shake",
+      "ingredients": [
+        "150-200ml water",
+        "120g canned pumpkin purée",
+        "110g apple (diced)",
+        "5g chia seeds (1 tsp)",
+        "1/4 tsp cinnamon",
+        "46g Orgain Vanilla or Chocolate Protein Powder (1 scoop)",
+        "2-3 ice cubes"
+      ],
+      "instructions": "Blend all ingredients until smooth",
+      "macros": "~200 cal | 22g P | 28g C | 3g F"
     }
   ]
 }

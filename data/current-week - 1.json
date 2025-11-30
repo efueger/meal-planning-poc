@@ -1,0 +1,44 @@
+{
+  "weekStart": "2025-11-23",
+  "weekEnd": "2025-11-27",
+  "targets": {
+    "protein": "110-130g/day",
+    "carbs": "60-90g/day",
+    "fat": "55-70g/day",
+    "calories": "1,400-1,600/day"
+  },
+  "days": [
+    {
+      "date": "Saturday, November 23",
+      "meals": [
+        {
+          "type": "Lunch",
+          "name": "Shakshuka",
+          "ingredients": ["3 eggs + 3 egg whites", "1/2 cup marinara sauce", "1 oz feta cheese", "Side of steamed spinach"],
+          "prepTime": "10 min",
+          "prepMethod": "Microwave"
+        },
+        {
+          "type": "Dessert",
+          "name": "Apple + Almond Butter",
+          "ingredients": ["1/2 apple (55g)", "1 tbsp almond butter"],
+          "prepTime": "2 min",
+          "prepMethod": "Assembly"
+        },
+        {
+          "type": "Dinner",
+          "name": "Ground Beef & Brussels Sprouts",
+          "ingredients": ["5 oz ground beef", "2 cups Brussels sprouts", "1 tsp EVOO"],
+          "prepTime": "25 min",
+          "prepMethod": "Oven or Microwave"
+        }
+      ],
+      "dailyTotal": {
+        "calories": 1050,
+        "protein": "97g",
+        "carbs": "46g",
+        "fat": "59g"
+      }
+    }
+  ]
+}
