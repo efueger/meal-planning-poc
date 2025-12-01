@@ -253,7 +253,7 @@
 
     <script>
         // Fetch and render the meal plan
-        fetch('current-week.json')
+        fetch('data/current-week.json')
             .then(response => response.json())
             .then(data => {
                 renderMealPlan(data);
