@@ -9,10 +9,10 @@
   },
   "weekNotes": {
     "focus": [
-    "metabolic recovery"
+      "metabolic recovery"
     ],
     "cookingSchedule": "Main batch cooking: Sunday (ground beef soup, rice). Mid-week: None needed. Daily: Microwave assembly only",
-    "shoppingSchedule": "Trip #1: Saturday or Sunday (Costco/TJ's/WF). Trip #2: Tuesday (WF rotisserie chicken on sale)"
+    "shoppingSchedule": "Trip #1: Saturday or Sunday (Costco/TJ's/WF).\\nTrip #2: Tuesday (WF rotisserie chicken on sale)"
   },
   "days": [
     {
@@ -215,8 +215,8 @@
           ],
           "prepTime": "2 min",
           "prepMethod": "Simple",
-          "prepInstructions": "Brew tea. Serve with almonds only if genuinely hungry.",
-          "notes": "Check HALT first - stress eating vs real hunger"
+          "prepInstructions": "Brew tea. Serve with almonds only if genuinely hungry (not stress eating).",
+          "notes": "Check HALT first - stress eating vs real hunger?"
         }
       ],
       "dailyTotal": {
@@ -516,3 +516,4 @@
     "IQ Protein Bar (190 cal, 15g P) - only if genuinely hungry, not stress eating",
     "Orgain shake with pumpkin/apple (200 cal, 22g P)"
   ]
+}
